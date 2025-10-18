@@ -1,0 +1,38 @@
+[
+  {
+    "id": "INT-01",
+    "role": "Elderly (65+) / 老年人",
+    "date": "2025-10-15",
+    "summary_en": "Struggles with online medical appointments, prefers voice prompts and large fonts.",
+    "summary_zh": "在网上预约挂号有困难，希望有语音提示与大号字体。",
+    "transcript_en": "Q: How do you usually get medical information?\nA: I ask my daughter or go to the community hospital. I find online booking confusing.\nQ: Would route planning help?\nA: Yes, if it speaks to me and has large buttons.",
+    "transcript_zh": "问：您通常如何获取就医信息？\n答：我一般问女儿或去社区医院。线上预约我看不太懂。\n问：路线规划是否有帮助？\n答：有的，最好能语音播报、按钮大一点。"
+  },
+  {
+    "id": "INT-02",
+    "role": "Visually Impaired / 视障人士",
+    "date": "2025-10-16",
+    "summary_en": "Relies on screen reader; wants clear voice navigation and barrier-free POIs.",
+    "summary_zh": "依赖读屏软件，期望清晰的语音导航与无障碍设施标注。",
+    "transcript_en": "Q: What features matter most?\nA: Accurate voice guidance and info about ramps and accessible toilets.\nQ: Any privacy concerns?\nA: I'd like clear consent before sharing location.",
+    "transcript_zh": "问：最需要哪些功能？\n答：准确的语音导航，以及坡道、无障碍卫生间等信息。\n问：是否担心隐私？\n答：位置共享前希望有明确授权提示。"
+  },
+  {
+    "id": "INT-03",
+    "role": "Low-income Resident / 低收入群体",
+    "date": "2025-10-17",
+    "summary_en": "Missed subsidy deadlines; needs push reminders and simple application checklists.",
+    "summary_zh": "常错过补贴申领时间，期望推送提醒与简单材料清单。",
+    "transcript_en": "Q: Have you applied for subsidies?\nA: I tried but the documents were confusing. I missed the deadline.\nQ: What would help?\nA: A step-by-step list and reminders.",
+    "transcript_zh": "问：申请过相关补贴吗？\n答：试过，但材料要求不清楚，最后错过了期限。\n问：什么会有帮助？\n答：分步骤的材料清单和提醒。"
+  },
+  {
+    "id": "INT-04",
+    "role": "Rural Resident / 农村居民",
+    "date": "2025-10-18",
+    "summary_en": "Intermittent network; prefers offline maps and downloadable guides.",
+    "summary_zh": "网络不稳定，希望支持离线地图与可下载指南。",
+    "transcript_en": "Q: Is network stable in your area?\nA: Not always. Offline instructions would be best.\nQ: Would you use community volunteer help?\nA: Yes, for hospital visits and medicine pickup.",
+    "transcript_zh": "问：您所在地区网络稳定吗？\n答：不太稳定。离线使用的说明最好。\n问：是否需要志愿者帮助？\n答：需要，比如就医陪同、代买常用药。"
+  }
+]

@@ -1,0 +1,13 @@
+age,uses_smartphone,most_used,impairment_freq,importance_voice,importance_one_tap,importance_offline,importance_large_ui,importance_policy,medical_willingness,privacy_concern,pricing,weekly_hours,help_source,barrierfree_poi,push_accept,family_support
+18-30,Y,Internet/WeChat,Rarely,4,3,3,3,2,Neutral,High,Freemium,5h+,Friends,Yes,Accept,Support
+31-50,Y,WeChat/Calls,Rarely,3,4,3,3,3,Willing,High,Free+Ads,3-5h,Family,Yes,Accept,Support
+51-65,Y,Calls/WeChat,Occasionally,4,5,4,5,4,Willing,High,Freemium,1-3h,Family,Yes,Highly Accept,Highly Support
+65+,Y,Calls,Often,5,5,4,5,5,Very Willing,Very High,Free+Ads,1-3h,Community,Yes,Highly Accept,Highly Support
+65+,N,N/A,Often,5,5,5,5,5,Not Willing,Very High,One-time,<1h,Family,Yes,Not Accept,Neutral
+31-50,Y,Internet,Rarely,3,4,3,3,3,Willing,High,Freemium,5h+,Friends,Yes,Accept,Support
+51-65,Y,WeChat,Occasionally,4,5,4,5,4,Neutral,High,One-time,1-3h,Family,Yes,Accept,Support
+65+,Y,Calls,Often,5,5,4,5,5,Very Willing,Very High,Free+Ads,<1h,Family,Yes,Highly Accept,Highly Support
+Rural 51-65,Y,Calls,Occasionally,4,4,5,4,3,Willing,High,Freemium,1-3h,Community,Yes,Accept,Support
+Rural 65+,Y,Calls,Often,5,5,5,5,4,Willing,Very High,Free+Ads,<1h,Community,Yes,Highly Accept,Support
+Low-income 31-50,Y,WeChat,Occasionally,4,5,4,5,5,Willing,High,Free+Ads,1-3h,Family,Yes,Accept,Support
+Visually Impaired,Y,Screen Reader,Often,5,4,4,5,4,Willing,Very High,Freemium,3-5h,Community,Yes,Accept,Support
