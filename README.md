@@ -1,14 +1,3 @@
 
-# CareConnect Project Site
-
-Bilingual (EN/中文) course project website ready for GitHub Pages.
-
-## Deploy (GitHub Pages)
-
-1. Create a new public repository named `careconnect-site` (or any name).
-2. Upload the contents of this folder.
-3. Go to **Settings → Pages**:
-   - Source: **Deploy from a branch**
-   - Branch: **main** / root
-4. Wait 1–2 minutes; your site will be available at `https://<your-username>.github.io/<repo>/`.
-
+# CareConnect 
+我们聚焦老年人、残障人士、低收入与偏远地区居民等群体，目标是通过无障碍、低门槛的移动服务提升其生活便利性与社会参与度。
