@@ -1,280 +1,380 @@
-
 <!doctype html>
 <html lang="zh">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Survey | CareConnect</title>
-<link rel="stylesheet" href="assets/style.css"/>
+<meta charset="utf-8">
+<title>问卷原始数据 | CareConnect</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;line-height:1.6;margin:0;background:#fafafa;color:#111;}
+header,footer{background:#e0f2fe;padding:1em;text-align:center;}
+.container{max-width:1000px;margin:auto;padding:1em;}
+.card{background:#fff;margin:1em 0;padding:1em;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,.05)}
+.data-table{width:100%;border-collapse:collapse;margin-top:1em;font-size:14px;}
+.data-table th,.data-table td{border:1px solid #ddd;padding:8px;text-align:center;}
+.data-table th{background:#f3f6fa;}
+footer{font-size:14px;color:#555;border-top:1px solid #ddd;margin-top:2em;}
+a{color:#0ea5e9;text-decoration:none;font-weight:600}
+</style>
 </head>
 <body>
-<header>
-  <div class="container">
-    <h1>问卷原始数据 · Survey Raw Data</h1>
-    <nav><a href="index.html">← Back / 返回</a></nav>
-  </div>
-</header>
-<main class="container">
+<header><h1>CareConnect · 问卷原始数据</h1></header>
+<div class="container">
   <div class="card">
-    <p>Below is the raw data table (12 responses). You can also download the CSV file.</p>
-    <table class="dataframe">
+    <p>以下为来自 14 位潜在用户的问卷结果汇总，用于分析用户特征与功能偏好。</p>
+    <table class="dataframe data-table">
   <thead>
-    <tr style="text-align: right;">
-      <th>age</th>
-      <th>uses_smartphone</th>
-      <th>most_used</th>
-      <th>impairment_freq</th>
-      <th>importance_voice</th>
-      <th>importance_one_tap</th>
-      <th>importance_offline</th>
-      <th>importance_large_ui</th>
-      <th>importance_policy</th>
-      <th>medical_willingness</th>
-      <th>privacy_concern</th>
-      <th>pricing</th>
-      <th>weekly_hours</th>
-      <th>help_source</th>
-      <th>barrierfree_poi</th>
-      <th>push_accept</th>
-      <th>family_support</th>
+    <tr style="text-align: center;">
+      <th>用户编号</th>
+      <th>群体类型</th>
+      <th>年龄段</th>
+      <th>是否使用智能手机</th>
+      <th>最常使用的手机功能</th>
+      <th>是否因视力听力或操作困难放弃使用某些手机功能</th>
+      <th>语音播报信息重要性</th>
+      <th>一键呼叫家人或社区服务重要性</th>
+      <th>离线地图与导航重要性</th>
+      <th>大字体高对比度界面重要性</th>
+      <th>政策补贴提醒重要性</th>
+      <th>是否愿意通过手机应用获取健康咨询或预约医疗服务</th>
+      <th>对使用手机应用时个人隐私的保护重视程度</th>
+      <th>希望该应用以何种方式提供服务</th>
+      <th>是否愿意参与此类应用的测试或反馈</th>
+      <th>平均每周使用智能手机的时间</th>
+      <th>当在使用手机遇到操作问题时通常会向谁求助</th>
+      <th>对于应用中的离线地图与导航功能是否希望标注无障碍设施位置</th>
+      <th>是否能接受手机应用定期推送与生活相关的信息</th>
+      <th>家人是否支持使用这类专为边缘化群体设计的手机应用</th>
+      <th>对这类应用的建议</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td>1.0</td>
+      <td>老年人（农村居民）</td>
+      <td>51-65</td>
+      <td>是</td>
+      <td>打电话、微信/社交软件</td>
+      <td>偶尔</td>
+      <td>4.0</td>
+      <td>5.0</td>
+      <td>3.0</td>
+      <td>5.0</td>
+      <td>4.0</td>
+      <td>愿意</td>
+      <td>非常重视</td>
+      <td>基础功能免费，高级功能付费</td>
+      <td>愿意</td>
+      <td>1-3小时</td>
+      <td>家人</td>
+      <td>非常希望</td>
+      <td>能接受</td>
+      <td>非常支持</td>
+      <td>希望应用操作步骤再简单些，图标再大一点。</td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>低收入群体（农村居民）</td>
+      <td>31-50</td>
+      <td>是</td>
+      <td>打电话、上网浏览、拍照</td>
+      <td>很少</td>
+      <td>2.0</td>
+      <td>3.0</td>
+      <td>4.0</td>
+      <td>3.0</td>
+      <td>5.0</td>
+      <td>非常愿意</td>
+      <td>重视</td>
+      <td>完全免费，带有广告</td>
+      <td>不确定</td>
+      <td>3-5小时</td>
+      <td>朋友</td>
+      <td>希望</td>
+      <td>非常能接受</td>
+      <td>支持</td>
+      <td>希望健康咨询内容通俗易懂，政策补贴提醒及时。</td>
+    </tr>
+    <tr>
+      <td>3.0</td>
+      <td>老年人</td>
+      <td>65以上</td>
+      <td>是</td>
+      <td>打电话、发短信</td>
+      <td>经常</td>
+      <td>5.0</td>
+      <td>5.0</td>
+      <td>2.0</td>
+      <td>5.0</td>
+      <td>3.0</td>
+      <td>一般</td>
+      <td>非常重视</td>
+      <td>完全免费，带有广告</td>
+      <td>不愿意</td>
+      <td>1小时以下</td>
+      <td>家人</td>
+      <td>一般</td>
+      <td>能接受</td>
+      <td>支持</td>
+      <td>语音播报声音能不能再调大，有时候听不清。</td>
+    </tr>
+    <tr>
+      <td>4.0</td>
+      <td>低收入群体</td>
       <td>18-30</td>
-      <td>Y</td>
-      <td>Internet/WeChat</td>
-      <td>Rarely</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>Neutral</td>
-      <td>High</td>
-      <td>Freemium</td>
-      <td>5h+</td>
-      <td>Friends</td>
-      <td>Yes</td>
-      <td>Accept</td>
-      <td>Support</td>
+      <td>是</td>
+      <td>微信/社交软件、上网浏览、拍照</td>
+      <td>从未</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>5.0</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>非常愿意</td>
+      <td>重视</td>
+      <td>基础功能免费，高级功能付费</td>
+      <td>愿意</td>
+      <td>5小时以上</td>
+      <td>朋友</td>
+      <td>非常希望</td>
+      <td>非常能接受</td>
+      <td>无所谓</td>
+      <td>希望应用加载速度快一点，别老卡顿。</td>
     </tr>
     <tr>
-      <td>31-50</td>
-      <td>Y</td>
-      <td>WeChat/Calls</td>
-      <td>Rarely</td>
-      <td>3</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>Willing</td>
-      <td>High</td>
-      <td>Free+Ads</td>
-      <td>3-5h</td>
-      <td>Family</td>
-      <td>Yes</td>
-      <td>Accept</td>
-      <td>Support</td>
-    </tr>
-    <tr>
+      <td>5.0</td>
+      <td>老年人（农村居民）</td>
       <td>51-65</td>
-      <td>Y</td>
-      <td>Calls/WeChat</td>
-      <td>Occasionally</td>
-      <td>4</td>
-      <td>5</td>
-      <td>4</td>
-      <td>5</td>
-      <td>4</td>
-      <td>Willing</td>
-      <td>High</td>
-      <td>Freemium</td>
-      <td>1-3h</td>
-      <td>Family</td>
-      <td>Yes</td>
-      <td>Highly Accept</td>
-      <td>Highly Support</td>
+      <td>是</td>
+      <td>打电话、微信/社交软件</td>
+      <td>偶尔</td>
+      <td>4.0</td>
+      <td>4.0</td>
+      <td>3.0</td>
+      <td>4.0</td>
+      <td>4.0</td>
+      <td>愿意</td>
+      <td>非常重视</td>
+      <td>完全免费，带有广告</td>
+      <td>不确定</td>
+      <td>1-3小时</td>
+      <td>家人</td>
+      <td>希望</td>
+      <td>能接受</td>
+      <td>非常支持</td>
+      <td>要是能有视频教程教怎么用就好了，文字教程看着费劲。</td>
     </tr>
     <tr>
-      <td>65+</td>
-      <td>Y</td>
-      <td>Calls</td>
-      <td>Often</td>
-      <td>5</td>
-      <td>5</td>
-      <td>4</td>
-      <td>5</td>
-      <td>5</td>
-      <td>Very Willing</td>
-      <td>Very High</td>
-      <td>Free+Ads</td>
-      <td>1-3h</td>
-      <td>Community</td>
-      <td>Yes</td>
-      <td>Highly Accept</td>
-      <td>Highly Support</td>
+      <td>6.0</td>
+      <td>老年人</td>
+      <td>65以上</td>
+      <td>否</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>暂时用不上智能手机，要是有简单的按键手机版应用就好了。</td>
     </tr>
     <tr>
-      <td>65+</td>
-      <td>N</td>
-      <td>N/A</td>
-      <td>Often</td>
-      <td>5</td>
-      <td>5</td>
-      <td>5</td>
-      <td>5</td>
-      <td>5</td>
-      <td>Not Willing</td>
-      <td>Very High</td>
-      <td>One-time</td>
-      <td>&lt;1h</td>
-      <td>Family</td>
-      <td>Yes</td>
-      <td>Not Accept</td>
-      <td>Neutral</td>
-    </tr>
-    <tr>
+      <td>7.0</td>
+      <td>低收入群体（农村居民）</td>
       <td>31-50</td>
-      <td>Y</td>
-      <td>Internet</td>
-      <td>Rarely</td>
-      <td>3</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>Willing</td>
-      <td>High</td>
-      <td>Freemium</td>
-      <td>5h+</td>
-      <td>Friends</td>
-      <td>Yes</td>
-      <td>Accept</td>
-      <td>Support</td>
+      <td>是</td>
+      <td>打电话、上网浏览、政策补贴提醒相关</td>
+      <td>很少</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>4.0</td>
+      <td>2.0</td>
+      <td>5.0</td>
+      <td>愿意</td>
+      <td>重视</td>
+      <td>基础功能免费，高级功能付费</td>
+      <td>愿意</td>
+      <td>3-5小时</td>
+      <td>社区工作人员</td>
+      <td>非常希望</td>
+      <td>非常能接受</td>
+      <td>支持</td>
+      <td>希望能绑定多个家人号码，一键呼叫更方便。</td>
     </tr>
     <tr>
+      <td>8.0</td>
+      <td>老年人</td>
       <td>51-65</td>
-      <td>Y</td>
-      <td>WeChat</td>
-      <td>Occasionally</td>
-      <td>4</td>
-      <td>5</td>
-      <td>4</td>
-      <td>5</td>
-      <td>4</td>
-      <td>Neutral</td>
-      <td>High</td>
-      <td>One-time</td>
-      <td>1-3h</td>
-      <td>Family</td>
-      <td>Yes</td>
-      <td>Accept</td>
-      <td>Support</td>
+      <td>是</td>
+      <td>打电话、拍照</td>
+      <td>偶尔</td>
+      <td>4.0</td>
+      <td>5.0</td>
+      <td>2.0</td>
+      <td>5.0</td>
+      <td>3.0</td>
+      <td>一般</td>
+      <td>非常重视</td>
+      <td>完全免费，带有广告</td>
+      <td>不愿意</td>
+      <td>1-3小时</td>
+      <td>家人</td>
+      <td>一般</td>
+      <td>不太能接受</td>
+      <td>支持</td>
+      <td>界面颜色对比再强烈点，眼神不好看不清楚按钮。</td>
     </tr>
     <tr>
-      <td>65+</td>
-      <td>Y</td>
-      <td>Calls</td>
-      <td>Often</td>
-      <td>5</td>
-      <td>5</td>
-      <td>4</td>
-      <td>5</td>
-      <td>5</td>
-      <td>Very Willing</td>
-      <td>Very High</td>
-      <td>Free+Ads</td>
-      <td>&lt;1h</td>
-      <td>Family</td>
-      <td>Yes</td>
-      <td>Highly Accept</td>
-      <td>Highly Support</td>
+      <td>9.0</td>
+      <td>低收入群体</td>
+      <td>18-30</td>
+      <td>是</td>
+      <td>微信/社交软件、拍照、上网浏览</td>
+      <td>从未</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>5.0</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>非常愿意</td>
+      <td>重视</td>
+      <td>一次性购买</td>
+      <td>愿意</td>
+      <td>5小时以上</td>
+      <td>朋友</td>
+      <td>非常希望</td>
+      <td>非常能接受</td>
+      <td>无所谓</td>
+      <td>希望应用能多增加一些实用的生活服务功能，比如水电费缴纳。</td>
     </tr>
     <tr>
-      <td>Rural 51-65</td>
-      <td>Y</td>
-      <td>Calls</td>
-      <td>Occasionally</td>
-      <td>4</td>
-      <td>4</td>
-      <td>5</td>
-      <td>4</td>
-      <td>3</td>
-      <td>Willing</td>
-      <td>High</td>
-      <td>Freemium</td>
-      <td>1-3h</td>
-      <td>Community</td>
-      <td>Yes</td>
-      <td>Accept</td>
-      <td>Support</td>
+      <td>10.0</td>
+      <td>老年人</td>
+      <td>65以上</td>
+      <td>是</td>
+      <td>打电话、发短信</td>
+      <td>经常</td>
+      <td>5.0</td>
+      <td>5.0</td>
+      <td>1.0</td>
+      <td>5.0</td>
+      <td>2.0</td>
+      <td>不愿意</td>
+      <td>非常重视</td>
+      <td>完全免费，带有广告</td>
+      <td>不愿意</td>
+      <td>1小时以下</td>
+      <td>不会求助，直接放弃</td>
+      <td>不希望</td>
+      <td>不太能接受</td>
+      <td>无所谓</td>
+      <td>操作太复杂了，好多功能找不到，能不能简化菜单。</td>
     </tr>
     <tr>
-      <td>Rural 65+</td>
-      <td>Y</td>
-      <td>Calls</td>
-      <td>Often</td>
-      <td>5</td>
-      <td>5</td>
-      <td>5</td>
-      <td>5</td>
-      <td>4</td>
-      <td>Willing</td>
-      <td>Very High</td>
-      <td>Free+Ads</td>
-      <td>&lt;1h</td>
-      <td>Community</td>
-      <td>Yes</td>
-      <td>Highly Accept</td>
-      <td>Support</td>
+      <td>11.0</td>
+      <td>农村居民（低收入群体）</td>
+      <td>31-50</td>
+      <td>是</td>
+      <td>打电话、微信/社交软件、政策补贴提醒</td>
+      <td>偶尔</td>
+      <td>3.0</td>
+      <td>4.0</td>
+      <td>5.0</td>
+      <td>3.0</td>
+      <td>5.0</td>
+      <td>愿意</td>
+      <td>重视</td>
+      <td>基础功能免费，高级功能付费</td>
+      <td>愿意</td>
+      <td>3-5小时</td>
+      <td>社区工作人员</td>
+      <td>非常希望</td>
+      <td>能接受</td>
+      <td>支持</td>
+      <td>希望政策补贴提醒能精准点，别推无关信息；离线地图多更农村小路。</td>
     </tr>
     <tr>
-      <td>Low-income 31-50</td>
-      <td>Y</td>
-      <td>WeChat</td>
-      <td>Occasionally</td>
-      <td>4</td>
-      <td>5</td>
-      <td>4</td>
-      <td>5</td>
-      <td>5</td>
-      <td>Willing</td>
-      <td>High</td>
-      <td>Free+Ads</td>
-      <td>1-3h</td>
-      <td>Family</td>
-      <td>Yes</td>
-      <td>Accept</td>
-      <td>Support</td>
+      <td>12.0</td>
+      <td>老年人（农村居民）</td>
+      <td>65以上</td>
+      <td>是</td>
+      <td>打电话、拍照</td>
+      <td>经常</td>
+      <td>5.0</td>
+      <td>5.0</td>
+      <td>2.0</td>
+      <td>5.0</td>
+      <td>3.0</td>
+      <td>一般</td>
+      <td>非常重视</td>
+      <td>完全免费，带有广告</td>
+      <td>不确定</td>
+      <td>1小时以下</td>
+      <td>家人</td>
+      <td>希望</td>
+      <td>能接受</td>
+      <td>支持</td>
+      <td>拍照后能不能自动保存到相册，有时候找不到存哪里了；语音播报别太啰嗦。</td>
     </tr>
     <tr>
-      <td>Visually Impaired</td>
-      <td>Y</td>
-      <td>Screen Reader</td>
-      <td>Often</td>
-      <td>5</td>
-      <td>4</td>
-      <td>4</td>
-      <td>5</td>
-      <td>4</td>
-      <td>Willing</td>
-      <td>Very High</td>
-      <td>Freemium</td>
-      <td>3-5h</td>
-      <td>Community</td>
-      <td>Yes</td>
-      <td>Accept</td>
-      <td>Support</td>
+      <td>13.0</td>
+      <td>低收入群体</td>
+      <td>18-30</td>
+      <td>是</td>
+      <td>微信/社交软件、上网浏览、视频通话</td>
+      <td>从未</td>
+      <td>2.0</td>
+      <td>3.0</td>
+      <td>5.0</td>
+      <td>2.0</td>
+      <td>2.0</td>
+      <td>非常愿意</td>
+      <td>重视</td>
+      <td>基础功能免费，高级功能付费</td>
+      <td>愿意</td>
+      <td>5小时以上</td>
+      <td>朋友</td>
+      <td>非常希望</td>
+      <td>非常能接受</td>
+      <td>无所谓</td>
+      <td>希望应用能兼容低配置手机，我现在的手机装太多软件会卡顿；多加点生活缴费功能。</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
   </tbody>
 </table>
-    <p style="margin-top:12px">Download CSV: <a href="survey_raw_data.csv" download>survey_raw_data.csv</a></p>
   </div>
-</main>
+</div>
 <footer class="container">
-  <p>© 2025 CareConnect.</p>
+  <p>Download CSV: <a href="survey_raw_data.csv" download>survey_raw_data.csv</a></p>
 </footer>
 </body>
 </html>

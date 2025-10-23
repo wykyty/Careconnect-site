@@ -1,13 +1,15 @@
-age,uses_smartphone,most_used,impairment_freq,importance_voice,importance_one_tap,importance_offline,importance_large_ui,importance_policy,medical_willingness,privacy_concern,pricing,weekly_hours,help_source,barrierfree_poi,push_accept,family_support
-18-30,Y,Internet/WeChat,Rarely,4,3,3,3,2,Neutral,High,Freemium,5h+,Friends,Yes,Accept,Support
-31-50,Y,WeChat/Calls,Rarely,3,4,3,3,3,Willing,High,Free+Ads,3-5h,Family,Yes,Accept,Support
-51-65,Y,Calls/WeChat,Occasionally,4,5,4,5,4,Willing,High,Freemium,1-3h,Family,Yes,Highly Accept,Highly Support
-65+,Y,Calls,Often,5,5,4,5,5,Very Willing,Very High,Free+Ads,1-3h,Community,Yes,Highly Accept,Highly Support
-65+,N,N/A,Often,5,5,5,5,5,Not Willing,Very High,One-time,<1h,Family,Yes,Not Accept,Neutral
-31-50,Y,Internet,Rarely,3,4,3,3,3,Willing,High,Freemium,5h+,Friends,Yes,Accept,Support
-51-65,Y,WeChat,Occasionally,4,5,4,5,4,Neutral,High,One-time,1-3h,Family,Yes,Accept,Support
-65+,Y,Calls,Often,5,5,4,5,5,Very Willing,Very High,Free+Ads,<1h,Family,Yes,Highly Accept,Highly Support
-Rural 51-65,Y,Calls,Occasionally,4,4,5,4,3,Willing,High,Freemium,1-3h,Community,Yes,Accept,Support
-Rural 65+,Y,Calls,Often,5,5,5,5,4,Willing,Very High,Free+Ads,<1h,Community,Yes,Highly Accept,Support
-Low-income 31-50,Y,WeChat,Occasionally,4,5,4,5,5,Willing,High,Free+Ads,1-3h,Family,Yes,Accept,Support
-Visually Impaired,Y,Screen Reader,Often,5,4,4,5,4,Willing,Very High,Freemium,3-5h,Community,Yes,Accept,Support
+用户编号,群体类型,年龄段,是否使用智能手机,最常使用的手机功能,是否因视力听力或操作困难放弃使用某些手机功能,语音播报信息重要性,一键呼叫家人或社区服务重要性,离线地图与导航重要性,大字体高对比度界面重要性,政策补贴提醒重要性,是否愿意通过手机应用获取健康咨询或预约医疗服务,对使用手机应用时个人隐私的保护重视程度,希望该应用以何种方式提供服务,是否愿意参与此类应用的测试或反馈,平均每周使用智能手机的时间,当在使用手机遇到操作问题时通常会向谁求助,对于应用中的离线地图与导航功能是否希望标注无障碍设施位置,是否能接受手机应用定期推送与生活相关的信息,家人是否支持使用这类专为边缘化群体设计的手机应用,对这类应用的建议
+1,老年人（农村居民）,51-65,是,打电话、微信/社交软件,偶尔,4,5,3,5,4,愿意,非常重视,基础功能免费，高级功能付费,愿意,1-3小时,家人,非常希望,能接受,非常支持,希望应用操作步骤再简单些，图标再大一点。
+2,低收入群体（农村居民）,31-50,是,打电话、上网浏览、拍照,很少,2,3,4,3,5,非常愿意,重视,完全免费，带有广告,不确定,3-5小时,朋友,希望,非常能接受,支持,希望健康咨询内容通俗易懂，政策补贴提醒及时。
+3,老年人,65以上,是,打电话、发短信,经常,5,5,2,5,3,一般,非常重视,完全免费，带有广告,不愿意,1小时以下,家人,一般,能接受,支持,语音播报声音能不能再调大，有时候听不清。
+4,低收入群体,18-30,是,微信/社交软件、上网浏览、拍照,从未,1,2,5,1,2,非常愿意,重视,基础功能免费，高级功能付费,愿意,5小时以上,朋友,非常希望,非常能接受,无所谓,希望应用加载速度快一点，别老卡顿。
+5,老年人（农村居民）,51-65,是,打电话、微信/社交软件,偶尔,4,4,3,4,4,愿意,非常重视,完全免费，带有广告,不确定,1-3小时,家人,希望,能接受,非常支持,要是能有视频教程教怎么用就好了，文字教程看着费劲。
+6,老年人,65以上,否,,,,,,,,,,,,-,,,,,暂时用不上智能手机，要是有简单的按键手机版应用就好了。
+7,低收入群体（农村居民）,31-50,是,打电话、上网浏览、政策补贴提醒相关,很少,3,3,4,2,5,愿意,重视,基础功能免费，高级功能付费,愿意,3-5小时,社区工作人员,非常希望,非常能接受,支持,希望能绑定多个家人号码，一键呼叫更方便。
+8,老年人,51-65,是,打电话、拍照,偶尔,4,5,2,5,3,一般,非常重视,完全免费，带有广告,不愿意,1-3小时,家人,一般,不太能接受,支持,界面颜色对比再强烈点，眼神不好看不清楚按钮。
+9,低收入群体,18-30,是,微信/社交软件、拍照、上网浏览,从未,1,2,5,1,2,非常愿意,重视,一次性购买,愿意,5小时以上,朋友,非常希望,非常能接受,无所谓,希望应用能多增加一些实用的生活服务功能，比如水电费缴纳。
+10,老年人,65以上,是,打电话、发短信,经常,5,5,1,5,2,不愿意,非常重视,完全免费，带有广告,不愿意,1小时以下,不会求助，直接放弃,不希望,不太能接受,无所谓,操作太复杂了，好多功能找不到，能不能简化菜单。
+11,农村居民（低收入群体）,31-50,是,打电话、微信/社交软件、政策补贴提醒,偶尔,3,4,5,3,5,愿意,重视,基础功能免费，高级功能付费,愿意,3-5小时,社区工作人员,非常希望,能接受,支持,希望政策补贴提醒能精准点，别推无关信息；离线地图多更农村小路。
+12,老年人（农村居民）,65以上,是,打电话、拍照,经常,5,5,2,5,3,一般,非常重视,完全免费，带有广告,不确定,1小时以下,家人,希望,能接受,支持,拍照后能不能自动保存到相册，有时候找不到存哪里了；语音播报别太啰嗦。
+13,低收入群体,18-30,是,微信/社交软件、上网浏览、视频通话,从未,2,3,5,2,2,非常愿意,重视,基础功能免费，高级功能付费,愿意,5小时以上,朋友,非常希望,非常能接受,无所谓,希望应用能兼容低配置手机，我现在的手机装太多软件会卡顿；多加点生活缴费功能。
+,,,,,,,,,,,,,,,,,,,,
