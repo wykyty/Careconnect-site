@@ -13,8 +13,8 @@
     <nav>
       <a href="#intro">团队简介</a>
       <a href="#proposal">项目提案</a>
-      <a href="#plan">数据收集</a>
       <a href="#analysis">数据分析</a>
+      <a href="#design-analysis">设计与分析</a>
       <a href="#documents">项目文档</a>
     </nav>
   </div>
@@ -57,17 +57,17 @@
   </section>
 
 
-  <section id="plan" class="card">
-    <h2>数据收集计划</h2>
+  <section id="analysis" class="card"> 
+    <h2>数据分析</h2>
+    
+    <p><strong>数据收集: </strong>  </p>
     <p>我们进行了 4 份结构化访谈与 12 份问卷调查（含原始数据表）。</p>
     <ol>
       <li><a href="interviews.html">访谈记录</a></li>
       <li><a href="survey.html">问卷原始数据</a></li>
     </ol>
-  </section>
-
-  <section id="analysis" class="card">
-    <h2>数据分析</h2>
+      
+    <p><strong>数据分析: </strong>  </p>
     <p>我们对收集到的数据进行分析，对问卷数据使用可视化工具进行数据分析，对访谈记录利用亲和图的方法进行分析，这里是我们的数据分析结果。</p>
     <ul>
       <li>
@@ -77,6 +77,56 @@
     </ul>
   </section>
 
+  <section id="design-analysis" class="card">
+  <h2>设计与分析</h2>
+  
+  <!-- Flow Model -->
+  <h3>Flow Model</h3>
+  <p>在此部分，我们展示了CareConnect的用户交互流程图，描述了不同用户之间的关系及信息流动：</p>
+  <img src="Flow Model.png" alt="Flow Model" style="max-width:50%;"/>
+
+  <!-- HMW Questions -->
+  <h3>HMW 问题</h3>
+  <ul>
+    <li>HMW使老年人能够轻松访问与理解健康和政策信息？</li>
+    <li>HMW让残障人士通过语音与设备互动，而无需传统的物理输入？</li>
+    <li>HMW在紧急情况下快速通知家人或护理人员并获得帮助？</li>
+    <li>HMW减少用户对新技术的恐惧，尤其是年长用户？</li>
+    <li>HMW让不同文化背景和需求的用户都能获得量身定制的服务？</li>
+    <li>HMW确保用户的隐私与数据安全，特别是老年人群体的个人健康信息？</li>
+  </ul>
+  
+  <!-- Personas -->
+  <h3>用户画像</h3>
+  <p>以下是我们为CareConnect应用设计的两个主要用户画像：</p>
+  <h4>Persona 1：李大爷（65岁，独居老年人）</h4>
+  <ul>
+    <li><strong>背景：</strong>李大爷是退休老教师，独自生活，行动不便，常常需要外界帮助。</li>
+    <li><strong>目标：</strong>希望有一款简单易用的应用，帮助他获取健康提醒、社区活动信息，并能在遇到紧急情况时联系家人。</li>
+    <li><strong>需求：</strong>语音播报、健康提醒、紧急求助按钮、离线功能等。</li>
+  </ul>
+  <h4>Persona 2：小张（32岁，残障人士，办公工作人员）</h4>
+  <ul>
+    <li><strong>背景：</strong>小张天生视力障碍，依赖盲文和语音与外界交互，工作时使用电子设备。</li>
+    <li><strong>目标：</strong>希望找到一款无障碍的智能助手，能提供语音功能，帮助自己管理日常生活。</li>
+    <li><strong>需求：</strong>语音助手、盲文支持、紧急求助功能等。</li>
+  </ul>
+
+  <!-- Storyboards -->
+  <h3>用户故事板</h3>
+  <p>以下是两个关于用户如何使用CareConnect应用的故事板：</p>
+    <ol>
+        <li>李大爷使用“CareConnect”获取健康提醒: 李大爷坐在家中，通过语音播报得到健康提醒，并轻松管理日常健康。</li>
+        <li>小张使用“CareConnect”紧急求助: 小张在公司加班时突发不适，通过语音命令触发紧急求助，并通知家人。</li>
+    </ol>
+  
+
+  <p>-----------------------------------------------------</p>
+
+  <p>详见实验报告。</p>
+
+
+</section>
 
 
   <section id="documents" class="card">
@@ -84,10 +134,20 @@
     <p>查看或下载项目相关PDF文档：</p>
     <ul>
       <li>
+        <a href="docs/lab1.pdf" target="_blank">项目选题（Lab 1）</a>
+      </li>
+      <li>
+        <a href="docs/lab2.pdf" target="_blank">访谈脚本与调查问卷设计（Lab 2）</a>
+      </li>
+      <li>
+        <a href="docs/lab4.pdf" target="_blank">数据收集计划（Lab 4）</a>
+      </li>
+      <li>
         <a href="docs/CareConnect — Affinity Diagram.pdf" target="_blank">亲和图（Affinity Diagram）</a>
       </li>
-      <!-- 如需添加多个PDF，按此格式扩展 -->
-
+        <li>
+            <a href="docs/lab6,7.pdf" target="_blank">设计与分析（Lab 6 & Lab 7）</a>
+        </li>
     </ul>
   </section>
 </main>
